@@ -1,0 +1,12 @@
+{
+  "name": "ecomapp",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2"
+  }
+}
